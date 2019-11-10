@@ -45,13 +45,15 @@ end
 
 def add_s(array)
 array.each_with_index.collect {|s_word, index|  
-if index == 0 or index > 1 
+if index == 0 && index > 1 
 return s_word + "s" 
 else 
 s_word == s_word
 end 
 }
 end 
+
+
 # if s_word == index[0] && s_word > index[1]
 #   return s_word + "s"
 # else 
