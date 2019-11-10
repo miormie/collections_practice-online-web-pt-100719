@@ -44,7 +44,9 @@ end
 
 
 def add_s(array)
-array.each_with_index.collect {|s_word|  
+array.each_with_index.collect {|s_word, index|  
+if 
+
 s_word + "s" }
 
 
