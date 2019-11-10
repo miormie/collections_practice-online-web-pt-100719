@@ -46,7 +46,7 @@ end
 def add_s(array)
 array.each_with_index.collect {|s_word, index|  
 if index == 0 
-return s_word + "s" 
+ s_word  = s_word + "s" 
 # elsif index > 1 
 # return s_word + "s"
 else 
