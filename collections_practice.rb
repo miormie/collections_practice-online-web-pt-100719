@@ -55,4 +55,5 @@ end
 
 #need to add s to all the elements but index 1 
 #need to use .each_with_index.collect to pass the index of the element and 
+#.collect to create a new array containing the values returned by the block
 
