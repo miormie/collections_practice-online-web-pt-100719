@@ -47,8 +47,10 @@ def add_s(array)
 array.each_with_index.collect {|s_word, index|  
 if index != 1 
 return s_word + "s" 
-else 
+elsif index == 1 
 s_word == s_word
+else 
+  nil 
 end 
 }
 end 
