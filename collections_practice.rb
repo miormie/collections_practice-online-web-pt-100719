@@ -49,8 +49,8 @@ if index == 0 or > 1
 return s_word + "s" 
 else 
 s_word == s_word
-end 
 }
+end 
 end 
 # if s_word == index[0] && s_word > index[1]
 #   return s_word + "s"
