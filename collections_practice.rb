@@ -44,33 +44,15 @@ end
 
 
 def add_s(array)
-array.each_with_index.collect {|s_word, index|  
+array.each_with_index.collect {|p_word, index|    #p_word=plural word 
 if index != 1 
- s_word  = s_word + "s" 
-# elsif index > 1 
-# return s_word + "s"
+ p_word = p_word + "s" 
 else 
-  s_word = s_word
+  p_word = p_word
 end 
 }
 end 
 
+#need to add s to all the elements but index 1 
+#need to use .each_with_index.collect to 
 
-# if s_word == index[0] && s_word > index[1]
-#   return s_word + "s"
-# else 
-# s_word
-# end  
-#}
-
-#case array 
-#array.each_with_index.collect {|s_word|   }         # s_word + "s" 
-# when s_word == index[1] 
-#   return s_word
-# when s_word == index[0]
-#   s_word + "s"
-#   when s_word then index[2]
-#     s_word + "s"
-#   else 
-#     "nil"
-#   end 
