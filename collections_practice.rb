@@ -44,7 +44,8 @@ end
 
 
 def add_s(array)
-array.each_with_index.collect {|s_word|  s_word + "s" }
+array.each_with_index.collect {|s_word|  
+s_word + "s" }
 
 
 end 
